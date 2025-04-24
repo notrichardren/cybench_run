@@ -1,0 +1,4 @@
+# Device and loading options passed straight through to Hugging Face
+device: "cuda:0"           # first GPU – change if you have more than one  
+dtype: "bfloat16"          # keeps the 14 B model inside 24 GB of VRAM  
+trust_remote_code: true    # DeepCoder implements custom kernels  
